@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 添加您的对话框内容，例如文本、输入框等 -->
+    <EditText
+        android:id="@+id/dialog_textview"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="这是对话框内容"
+        android:textSize="16sp"/>
+
+    <!-- 自定义积极按钮 -->
+    <Button
+        android:id="@+id/custom_positive_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="确定"
+        android:textColor="#FFFFFF"
+        android:background="#FF0000"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/custom_negative_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="取消"
+        android:textColor="#FFFFFF"
+        android:background="#FF0000"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"/>
+</LinearLayout>

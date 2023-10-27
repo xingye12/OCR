@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/list_item_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 您的列表项视图内容 -->
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="8dp" />
+    <!--        android:text="列表项内容"-->
+    <!-- 其他视图元素 -->
+</LinearLayout>

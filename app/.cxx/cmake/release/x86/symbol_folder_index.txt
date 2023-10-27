@@ -1,0 +1,1 @@
+D:\Code\Android\AndroidOCR-master\app\build\intermediates\cmake\release\obj\x86

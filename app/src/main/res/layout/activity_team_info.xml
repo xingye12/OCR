@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamInfoActivity">
+
+    <ListView
+        android:id="@+id/teamMemberList"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamInfoIntroText" />
+
+    <TextView
+        android:id="@+id/teamInfoNameText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#00A6AE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamInfoIntroText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamInfoNameText" />
+    <Button
+        android:id="@+id/teamInfoAddMemberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="添加成员"
+        android:background="#BEF6F0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamMemberList" />
+
+    <Button
+        android:id="@+id/teamInfoExitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="退出群聊"
+        android:background="#DC0E3D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamInfoAddMemberBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

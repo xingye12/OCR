@@ -1,0 +1,42 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\Code\\Android\\AndroidOCR-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\App\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\Code\\Android\\AndroidOCR-master\\app\\.cxx\\cmake\\debug\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\App\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\Code\\Android\\AndroidOCR-master\\app\\.cxx\\cmake\\debug\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "detection_based_tracker-Debug-x86": {
+      "buildCommandComponents": [
+        "D:\\App\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Code\\Android\\AndroidOCR-master\\app\\.cxx\\cmake\\debug\\x86",
+        "detection_based_tracker"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "detection_based_tracker",
+      "output": "D:\\Code\\Android\\AndroidOCR-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libdetection_based_tracker.so",
+      "runtimeFiles": [
+        "D:\\Code\\Android\\AndroidOCR-master\\sdk\\native\\libs\\x86\\libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

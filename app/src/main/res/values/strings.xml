@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">文字识别</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinner_items">
+        <item>添加好友</item>
+        <item>好友申请</item>
+        <item>创建群聊</item>
+        <!-- 添加更多选项 -->
+    </string-array>
+</resources>

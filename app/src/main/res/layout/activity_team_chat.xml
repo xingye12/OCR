@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamChatActivity">
+
+    <Button
+        android:id="@+id/teamInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="群信息"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/teamSpeakText"
+        android:layout_width="270dp"
+        android:layout_height="81dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/teamSpeakBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/teamSpeakBtn"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/voice_full" />
+
+    <Button
+        android:id="@+id/teamSendBtn"
+        android:layout_width="126dp"
+        android:layout_height="81dp"
+        android:text="发送"
+        app:layout_constraintBottom_toTopOf="@+id/teamSpeakBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/teamSpeakText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/teamMessageRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        app:layout_constraintBottom_toTopOf="@+id/teamSpeakText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

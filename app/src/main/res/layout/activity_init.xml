@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image"
+    tools:context=".InitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textTranslate"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="中英文拍照识别" />
+
+        <TextView
+            android:id="@+id/textGetChineseAndEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="盲文转录" />
+
+        <TextView
+            android:id="@+id/textMyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="个人信息" />
+
+        <TextView
+            android:id="@+id/textComunnity"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="明阅社区"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
